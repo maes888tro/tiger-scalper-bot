@@ -1,14 +1,14 @@
 # Tiger Scalper Bot
 
-This project is a scalping bot for **Tiger Broker** that operates on a demo account and self-learns to improve its trading strategies.
+Этот проект представляет собой бота для **Tiger Broker**, который работает на демосчете и самообучается для улучшения торговых стратегий.
 
-## Features:
-- Real-time market data analysis
-- Automated trading strategies
-- Continuous learning and improvement
+## Особенности:
+- Анализ рыночных данных в реальном времени
+- Автоматические торговые стратегии
+- Непрерывное обучение и улучшение
 
-## Installation:
+## Установка:
 
-1. **Clone this repository**:
+1. **Клонируйте репозиторий**:
    ```bash
    git clone https://github.com/maes888tro/tiger-scalper-bot.git
