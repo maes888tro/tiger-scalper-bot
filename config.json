@@ -1,0 +1,27 @@
+{
+    "exchange": "binance",
+    "terminal": "tiger_trade",
+    "demo_mode": true,
+    "symbol": "BTCUSDT",
+    "timeframe": "15s",
+    "strategy": {
+        "name": "terminal_scalper",
+        "ema_fast": 3,
+        "ema_slow": 9,
+        "rsi_period": 11,
+        "volume_multiplier": 2.0,
+        "max_spread": 0.05
+    },
+    "api": {
+        "binance_key": "YOUR_BINANCE_API_KEY",
+        "binance_secret": "YOUR_BINANCE_API_SECRET",
+        "telegram_token": "YOUR_TELEGRAM_TOKEN",
+        "telegram_chat_id": "YOUR_CHAT_ID"
+    },
+    "risk_management": {
+        "max_position_size": 0.1,
+        "stop_loss": 0.5,
+        "take_profit": 1.0,
+        "daily_loss_limit": 2.0
+    }
+}
